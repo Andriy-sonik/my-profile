@@ -1,0 +1,6 @@
+.main {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-column-gap: 15px;
+}

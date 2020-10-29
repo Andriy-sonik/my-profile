@@ -1,13 +1,13 @@
 <template>
-    $END$
+  <header class="header default-block">
+    header
+  </header>
 </template>
 
 <script>
-    export default {
-        name: "TheHeader"
-    }
+export default {
+  name: "TheHeader"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

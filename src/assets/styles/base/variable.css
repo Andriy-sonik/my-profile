@@ -1,0 +1,18 @@
+:root {
+    /*font-size*/
+    --default_font_size: 16px;
+    --font_sz_10: 0.625rem;
+    --font_sz_12: 0.75rem;
+    --font_sz_14: 0.875rem;
+    --font_sz_16: 1rem;
+    --font_sz_18: 1.125rem;
+    --font_sz_20: 1.25rem;
+    --font_sz_24: 1.5rem;
+    --font_sz_30: 1.875rem;
+    --font_sz_32: 2rem;
+    /*    colors */
+    --default_background: #dde1e7;
+    --white: #ffffff;
+    /*    other*/
+    --default_radius: 30px;
+}

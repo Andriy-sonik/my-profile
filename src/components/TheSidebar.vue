@@ -1,13 +1,13 @@
 <template>
-    $END$
+  <aside class="sidebar default-block">
+    aside
+  </aside>
 </template>
 
 <script>
-    export default {
-        name: "TheSidebar"
-    }
+export default {
+  name: "TheSidebar"
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

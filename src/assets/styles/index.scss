@@ -1,8 +1,9 @@
+//base
 @import "base/variable.css";
 @import "base/reset.css";
+//global
+@import "global_style";
+//other
+@import "components/the_header";
 @import "components/the_sidebar";
-
-
-html{
-  font-size: var(--default_font_size);
-}
+@import "components/the_main";

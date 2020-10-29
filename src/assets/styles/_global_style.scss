@@ -1,0 +1,18 @@
+html {
+  font-size: var(--default_font_size);
+  height: 100%;
+}
+
+body, #app, .wrapper {
+  height: inherit;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.default-block {
+  background: var(--default_background);
+  border-radius: var(--default_radius);
+  box-shadow: -3px -3px 7px var(--white), 3px 3px 5px rgba(18, 18, 19, 0.288);
+}
