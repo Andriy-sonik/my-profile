@@ -1,0 +1,14 @@
+.switch-theme {
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  background: url('~@/assets/icons/moon.svg') center no-repeat;
+  transition: var(--default_transition);
+
+  &.active {
+    background: url('~@/assets/icons/sun.svg') center no-repeat;
+    transition: var(--default_transition);
+  }
+}

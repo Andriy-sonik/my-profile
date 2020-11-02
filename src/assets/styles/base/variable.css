@@ -8,11 +8,23 @@
     --font_sz_18: 1.125rem;
     --font_sz_20: 1.25rem;
     --font_sz_24: 1.5rem;
+    --font_sz_28: 1.75rem;
     --font_sz_30: 1.875rem;
     --font_sz_32: 2rem;
     /*    colors */
     --default_background: #dde1e7;
     --white: #ffffff;
+    --black: #000000;
+    --grey: #6c757d;
     /*    other*/
-    --default_radius: 30px;
+    --default_font_family: 'Raleway', sans-serif;
+    --default_radius: 10px;
+    --default_padding: 15px;
+    --default_transition: 0.25s;
+    --default_box_shadow: -3px -3px 7px var(--white), 3px 3px 5px rgba(18, 18, 19, 0.288);
+    --default_box_shadow_inset: inset -3px -3px 7px var(--white), inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+}
+
+.dark-theme {
+    --default_background: #2c2d30;
 }

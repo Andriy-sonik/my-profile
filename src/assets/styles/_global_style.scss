@@ -1,18 +1,54 @@
 html {
   font-size: var(--default_font_size);
   height: 100%;
+  font-family: var(--default_font_family);
 }
 
-body, #app, .wrapper {
+body,
+#app,
+.wrapper,
+.container {
   height: inherit;
 }
-.wrapper{
+
+.wrapper {
+  background-color: var(--default_background);
+}
+
+.container {
   display: flex;
   flex-direction: column;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 .default-block {
   background: var(--default_background);
   border-radius: var(--default_radius);
-  box-shadow: -3px -3px 7px var(--white), 3px 3px 5px rgba(18, 18, 19, 0.288);
+  box-shadow: var(--default_box_shadow);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.line {
+  display: block;
+  width: 100%;
+  border-radius: var(--default_radius);
+  margin: var(--default_padding) 0;
+  border: 0;
+  height: 2px;
+  background: linear-gradient(
+    to top,
+    rgba(#515154, 0.2) 0%,
+    rgba(29, 29, 31, 0.5) 100%
+  );
 }

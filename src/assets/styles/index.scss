@@ -3,7 +3,10 @@
 @import "base/reset.css";
 //global
 @import "global_style";
+//ui
+@import "components/ui/switch_theme";
 //other
 @import "components/the_header";
 @import "components/the_sidebar";
 @import "components/the_main";
+
