@@ -5,8 +5,12 @@
 @import "global_style";
 //ui
 @import "components/ui/switch_theme";
+@import "components/ui/switch_language";
 //other
 @import "components/the_header";
 @import "components/the_sidebar";
 @import "components/the_main";
+//views
+@import "views/about";
+@import "views/contact";
 

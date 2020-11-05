@@ -1,6 +1,7 @@
 <template>
   <header class="header default-block">
     <SwitchLanguage />
+    <div class="line-horizontal"></div>
     <SwitchTheme />
   </header>
 </template>

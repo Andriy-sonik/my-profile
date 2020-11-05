@@ -5,10 +5,10 @@
         <img src="@/assets/images/user.png" class="img-fluid" />
       </div>
     </div>
-    <hr class="line">
-    <h2 class="sidebar-username">Andriy Andriychuk</h2>
-    <p class="sidebar-profession">Front-end Developer</p>
-    <hr class="line">
+    <hr class="line" />
+    <h1 class="sidebar-username">Andriy Andriychuk</h1>
+    <p class="sidebar-profession">Front-end {{ $t("developer") }}</p>
+    <hr class="line" />
     <nav class="menu w-100">
       <ul class="menu-list">
         <router-link

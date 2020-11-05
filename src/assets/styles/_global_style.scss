@@ -1,7 +1,7 @@
 html {
   font-size: var(--default_font_size);
   height: 100%;
-  font-family: var(--default_font_family);
+  font-family: var(--font_family_ibm);
 }
 
 body,
@@ -28,6 +28,7 @@ body,
   background: var(--default_background);
   border-radius: var(--default_radius);
   box-shadow: var(--default_box_shadow);
+  padding: var(--default_padding);
 }
 
 .img-fluid {
@@ -39,16 +40,37 @@ body,
   width: 100%;
 }
 
-.line {
+.line,
+.line-horizontal {
   display: block;
-  width: 100%;
   border-radius: var(--default_radius);
-  margin: var(--default_padding) 0;
   border: 0;
+}
+
+.line {
+  width: 100%;
   height: 2px;
+  margin: var(--default_padding) 0;
   background: linear-gradient(
     to top,
     rgba(#515154, 0.2) 0%,
     rgba(29, 29, 31, 0.5) 100%
   );
+}
+
+.line-horizontal {
+  width: 2px;
+  height: 100%;
+  margin: 0 var(--default_padding);
+  background: linear-gradient(
+    to right,
+    rgba(#515154, 0.2) 0%,
+    rgba(29, 29, 31, 0.5) 100%
+  );
+}
+
+.title {
+  font-size: var(--font_sz_24);
+  font-weight: 700;
+  text-transform: capitalize;
 }

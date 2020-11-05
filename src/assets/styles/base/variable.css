@@ -16,8 +16,9 @@
     --white: #ffffff;
     --black: #000000;
     --grey: #6c757d;
+    --pink: rgba(245, 108, 109,1);
     /*    other*/
-    --default_font_family: 'Raleway', sans-serif;
+    --font_family_ibm: 'IBM Plex Mono', monospace;
     --default_radius: 10px;
     --default_padding: 15px;
     --default_transition: 0.25s;

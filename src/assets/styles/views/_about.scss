@@ -1,0 +1,24 @@
+.about{
+
+}
+.about-education--item{
+  display: flex;
+  flex-direction: column;
+}
+.about-skills--list{
+  max-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(125px, auto));
+  grid-gap: var(--default_padding);
+}
+.about-skills--item{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  font-weight: bolder;
+  color: var(--pink);
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: var(--default_box_shadow_inset);
+}

@@ -1,0 +1,25 @@
+.contact {
+}
+.contact-social--list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 50px));
+  grid-gap: var(--default_padding);
+  justify-content: center;
+  padding: var(--default_padding);
+  border-radius: var(--default_radius);
+  box-shadow: var(--default_box_shadow_inset);
+}
+.contact-social--item {
+  box-sizing: border-box;
+  height: 50px;
+  border-radius: var(--default_radius);
+  cursor: pointer;
+  transition: all 400ms;
+  box-shadow: var(--default_box_shadow);
+  padding: 10px;
+  &:hover {
+    img {
+      filter: invert(0.5) sepia(1) hue-rotate(200deg);
+    }
+  }
+}
