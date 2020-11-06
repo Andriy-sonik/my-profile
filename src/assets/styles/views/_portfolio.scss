@@ -1,0 +1,29 @@
+.portfolio {
+}
+.portfolio-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-gap: var(--default_padding);
+  margin: var(--default_padding) 0 0 0;
+}
+.portfolio-item {
+  display: flex;
+  min-height: 225px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: var(--default_radius);
+  background-size: 150px!important;
+  box-shadow: var(--default_box_shadow_inset);
+  transition: all var(--default_transition);
+  &:hover{
+    background-size: 160px!important;
+    box-shadow: var(--default_box_shadow);
+  }
+}
+.portfolio-item--desc{
+  width: 100%;
+  align-self: flex-end;
+  padding: var(--default_padding);
+  background: rgba(0,0,0, .5);
+  color: var(--white);
+}
