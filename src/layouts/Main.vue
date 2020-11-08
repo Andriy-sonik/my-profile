@@ -5,9 +5,7 @@
       <main class="main">
         <TheSidebar />
         <div class="default-block">
-          <transition>
-            <router-view />
-          </transition>
+          <router-view />
         </div>
       </main>
     </div>

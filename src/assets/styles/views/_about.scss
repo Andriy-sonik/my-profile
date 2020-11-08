@@ -1,17 +1,17 @@
-.about{
+.about-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--min_width), auto));
+  grid-gap: var(--default_padding);
+  margin: 0 0 var(--default_padding) 0;
+}
 
-}
-.about-education--item{
-  display: flex;
-  flex-direction: column;
-}
-.about-skills--list{
-  max-width: 300px;
+.about-skills--list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(125px, auto));
   grid-gap: var(--default_padding);
 }
-.about-skills--item{
+
+.about-skills--item {
   box-sizing: border-box;
   display: inline-block;
   width: 100%;
@@ -21,4 +21,97 @@
   padding: 10px;
   border-radius: 50px;
   box-shadow: var(--default_box_shadow_inset);
+}
+
+//education
+.about-education {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-education--list {
+  flex: 1 1 auto;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: calc(var(--default_padding) * 3);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: var(--default_padding);
+    display: block;
+    width: 10px;
+    height: calc(100% - calc(var(--default_padding) * 2));
+    box-shadow: var(--default_box_shadow_inset);
+    border-radius: var(--default_radius);
+  }
+}
+
+.about-education--item {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 var(--default_padding) 0;
+  cursor: help;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: var(--default_padding);
+    display: block;
+    width: 10px;
+    height: 20px;
+    background-color: var(--pink);
+    border-radius: var(--default_radius);
+  }
+}
+.about-education--item_title abbr {
+  font-weight: 600;
+  color: var(--black);
+  text-decoration: none;
+}
+.about-education--item_text {
+  padding: 5px 0;
+  span {
+    font-family: monospace;
+    font-style: italic;
+  }
+}
+.about-education--item_date {
+  padding: 0 0 0 calc(var(--default_padding) * 2);
+  color: var(--grey);
+  font-weight: 300;
+  background: url("~@/assets/icons/calendar.svg") center left no-repeat;
+  background-size: contain;
+}
+
+//experience
+.about-experience--item {
+  list-style: none;
+  tr {
+    @media screen and (max-width: 414px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  th,
+  td {
+    padding: 5px;
+  }
+  td,
+  a {
+    color: var(--black);
+    vertical-align: bottom;
+  }
+  th {
+    font-weight: 600;
+    font-style: italic;
+    font-family: monospace;
+    color: var(--pink);
+  }
+
+  img {
+    max-width: 60px;
+    height: auto;
+    margin: 0 5px 0 0;
+  }
 }

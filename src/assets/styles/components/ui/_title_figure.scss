@@ -1,0 +1,26 @@
+.caption {
+  display: flex;
+  align-items: center;
+  margin: 0 0 var(--default_padding) 0;
+}
+
+.caption-container--img {
+  box-shadow: var(--default_box_shadow_inset);
+  border-radius: 50%;
+}
+
+.caption-img {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: var(--default_box_shadow);
+}
+
+.caption-text {
+  font-size: var(--font_sz_20);
+  font-weight: 700;
+  padding: 0 0 0 var(--default_padding);
+  text-transform: capitalize;
+}

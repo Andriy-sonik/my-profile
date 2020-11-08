@@ -15,7 +15,7 @@ const routes = [
     component: () => import("../views/About")
   },
   {
-    path: "/portfolio",
+    path: "/projects",
     name: "Portfolio",
     component: () => import("../views/Portfolio")
   },
@@ -23,6 +23,10 @@ const routes = [
     path: "/contact",
     name: "Contact",
     component: () => import("../views/Contact")
+  },
+  {
+    path: "*",
+    redirect: { name: "Home" }
   }
 ];
 

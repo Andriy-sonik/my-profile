@@ -1,10 +1,7 @@
-.portfolio {
-}
 .portfolio-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(var(--min_width), auto));
   grid-gap: var(--default_padding);
-  margin: var(--default_padding) 0 0 0;
 }
 .portfolio-item {
   display: flex;

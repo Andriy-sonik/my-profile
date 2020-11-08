@@ -33,9 +33,10 @@ export default {
   data() {
     return {
       menuList: [
-        { title: "About", url: "/about", exact: true },
-        { title: "Portfolio", url: "/portfolio" },
-        { title: "Contact", url: "/contact" }
+        { title: "Home", url: "/", exact: true },
+        { title: "About", url: "/about" },
+        { title: "Projects", url: "/projects" },
+        // { title: "Contact", url: "/contact" }
       ]
     };
   }

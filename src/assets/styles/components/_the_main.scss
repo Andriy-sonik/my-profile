@@ -1,7 +1,7 @@
 .main {
   flex: 1 1 auto;
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: var(--min_width) auto;
   grid-column-gap: var(--default_padding);
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
