@@ -1,6 +1,6 @@
 <template>
   <div class="portfolio">
-    <h2 class="title">My Work</h2>
+    <h2 class="title">{{ $t("my_works") }}</h2>
     <div class="portfolio-list">
       <div
         class="portfolio-item"
@@ -11,7 +11,7 @@
         }"
       >
         <span class="portfolio-item--desc">
-          Кількість проектів на {{ item.technology }}:
+          {{ $t("numbers_projects") }} {{ item.technology }}:
           {{ item.numberProjects }}
         </span>
       </div>

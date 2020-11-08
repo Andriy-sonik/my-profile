@@ -6,7 +6,7 @@
       </div>
     </div>
     <hr class="line" />
-    <h1 class="sidebar-username">Andriy Andriychuk</h1>
+    <h1 class="sidebar-username">{{$t('my_name')}}</h1>
     <p class="sidebar-profession">Front-end {{ $t("developer") }}</p>
     <hr class="line" />
     <nav class="menu w-100">
@@ -20,7 +20,7 @@
           :exact="link.exact"
           active-class="active"
         >
-          <a href="#" class="menu-link">{{ link.title }}</a>
+          <a href="#" class="menu-link">{{ $t(link.title) }}</a>
         </router-link>
       </ul>
     </nav>
@@ -33,10 +33,9 @@ export default {
   data() {
     return {
       menuList: [
-        { title: "Home", url: "/", exact: true },
-        { title: "About", url: "/about" },
-        { title: "Projects", url: "/projects" },
-        // { title: "Contact", url: "/contact" }
+        { title: "home", url: "/", exact: true },
+        { title: "about", url: "/about" },
+        { title: "my_works", url: "/my-works" }
       ]
     };
   }

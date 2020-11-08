@@ -1,3 +1,24 @@
 {
-  "developer": "developer"
+  "my_name": "Andriy Andriychuk",
+  "developer": "developer",
+  "layout_designer": "layout designer",
+  "home": "home",
+  "about": "about me",
+  "my_works": "my works",
+  "numbers_projects": "Number of projects for",
+  "education": "education",
+  "skills": "skills",
+  "experience": "experience",
+  "specialty": "specialty",
+  "specialty_name": "Software engineering",
+  "company": "Company",
+  "position": "Position",
+  "employment_type": "Employment type",
+  "date": "Date",
+  "duties": "Duties",
+  "full_time_work": "Full time work",
+  "present_hour": "present hour",
+  "year": "year",
+  "november": "november",
+  "": ""
 }

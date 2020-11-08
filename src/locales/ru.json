@@ -1,3 +1,24 @@
 {
-  "developer": "разработчик"
+  "my_name": "Андрей Андрийчук",
+  "developer": "разработчик",
+  "layout_designer": "верстальщик",
+  "home": "главная",
+  "about": "обо мне",
+  "my_works": "мои работы",
+  "numbers_projects": "Количество проектов на",
+  "education": "образование",
+  "skills": "навыки",
+  "experience": "опыт",
+  "specialty": "специальность",
+  "specialty_name": "Инженерия программного обеспечения",
+  "company": "Компания",
+  "position": "Должность",
+  "employment_type": "Тип занятости",
+  "date": "Дата",
+  "duties": "Обязанности",
+  "full_time_work": "Полный рабочий день",
+  "present_hour": "настоящий час",
+  "year": "год",
+  "november": "ноября",
+  "": ""
 }

@@ -51,7 +51,6 @@
   display: flex;
   flex-direction: column;
   margin: 0 0 var(--default_padding) 0;
-  cursor: help;
 
   &:before {
     content: "";
@@ -68,10 +67,12 @@
   font-weight: 600;
   color: var(--black);
   text-decoration: none;
+  cursor: help;
 }
 .about-education--item_text {
   padding: 5px 0;
   span {
+    text-transform: capitalize;
     font-family: monospace;
     font-style: italic;
   }
