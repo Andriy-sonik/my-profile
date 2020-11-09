@@ -75,12 +75,7 @@
               <tr>
                 <th>{{ $t("duties") }}:</th>
                 <td>
-                  <p>
-                    Верстка нових компонентів / сторінок, внесення правок до вже
-                    існуючих сторінок, локалізація сайту, різні калькуляції,
-                    сортував/ фільтрував дані, реалізовував пагінацію. Працював
-                    з Vuex, Vue Router, API.
-                  </p>
+                  <p>{{ $t("duties_wpt") }}</p>
                 </td>
               </tr>
             </tbody>
@@ -102,9 +97,9 @@ export default {
         "HTML",
         "CSS",
         "JavaScript",
-        "TypeScript",
+        // "TypeScript",
         "Vue",
-        "React",
+        // "React",
         "Git",
         "Webpack"
       ],

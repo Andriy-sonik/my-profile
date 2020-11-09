@@ -8,7 +8,7 @@
         <span
           :key="`lang${index}`"
           v-if="item.iso != $i18n.locale"
-          @click="$i18n.locale = item.iso"
+          @click="setLanguage(item.iso)"
         >
           {{ item.title }}
         </span>
@@ -32,6 +32,10 @@ export default {
     fullNameLanguage(data) {
       return this.localList[data].title;
     },
+    setLanguage(lang) {
+      this.$i18n.locale = lang;
+      localStorage.setItem("lang", lang);
+    }
   }
 };
 </script>

@@ -20,5 +20,7 @@
   "present_hour": "present hour",
   "year": "year",
   "november": "november",
+  "duties_wpt": "Layout of new components / pages, making edits to existing pages, site localization, various calculations, sorted / filtered data, implemented pagination. Worked with Vuex, Vue Router, API.",
+  "coming_soon": "Coming soon",
   "": ""
 }

@@ -4,14 +4,21 @@
   grid-gap: var(--default_padding);
   margin: 0 0 var(--default_padding) 0;
 }
+.about-education,
+.about-skills{
+  display: flex;
+  flex-direction: column;
+}
 
 .about-skills--list {
+  flex: 1 1 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(125px, auto));
   grid-gap: var(--default_padding);
 }
 
 .about-skills--item {
+  align-self: center;
   box-sizing: border-box;
   display: inline-block;
   width: 100%;
@@ -24,10 +31,6 @@
 }
 
 //education
-.about-education {
-  display: flex;
-  flex-direction: column;
-}
 
 .about-education--list {
   flex: 1 1 auto;

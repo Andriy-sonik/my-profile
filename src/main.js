@@ -10,7 +10,7 @@ Vue.config.productionTip = false;
 require("./assets/styles/index.scss");
 
 const i18n = new VueI18n({
-  locale: "en",// устанавливаем локализацию по умолчанию
+  locale: localStorage.getItem("lang") || "en",
   messages: locales
 });
 

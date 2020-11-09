@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <Main>
+    <components is="Main">
       <router-view />
-    </Main>
+    </components>
   </div>
 </template>
 <script>
 import Main from "./layouts/Main";
+
 export default {
-  components: {
-    Main
-  }
+  components: { Main }
 };
 </script>
 <style lang="scss"></style>
