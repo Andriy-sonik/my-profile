@@ -9,6 +9,7 @@
 
   &.active {
     background: url('~@/assets/icons/sun.svg') center no-repeat;
+    filter: brightness(0) invert(1);
     transition: var(--default_transition);
   }
 }

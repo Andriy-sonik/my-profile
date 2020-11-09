@@ -2,6 +2,7 @@ html {
   font-size: var(--default_font_size);
   height: 100%;
   font-family: var(--font_family_ibm);
+  color: var(--black);
 }
 
 body,
@@ -83,4 +84,5 @@ body,
   font-weight: 700;
   text-transform: capitalize;
   margin: 0 0 var(--default_padding) 0;
+  color: var(--black);
 }
